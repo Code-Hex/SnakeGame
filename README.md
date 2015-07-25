@@ -6,5 +6,5 @@ SnakeGame in C
 $ make  
 ./snake  
   
-Exit at 'q'.  
+Exit with 'q'.  
 Move with cursor keys.
