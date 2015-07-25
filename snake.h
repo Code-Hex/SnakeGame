@@ -3,10 +3,15 @@
  
 #define LENGTH 41
 #define BODY 100000
+#define DOLLER 2
+#define RARE 4
+#define SRARE 15
 
 static int length = LENGTH;
 static int flag;
 static int bonus;
+static int sbonus;
+static int score;
 enum direction { UP, DOWN, RIGHT, LEFT };
 
 typedef struct snake {
