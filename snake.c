@@ -37,7 +37,7 @@ int main() {
 
 		dir = RIGHT;
 		put_seed(win, snake, seed, '$', 0);
-		printw("Exit at \'q\', Score: %d\r", score);
+		printw("Exit with \'q\', Score: %d\r", score);
 	    refresh();
 		while ((c = getch()) != 'q') {
 			if (j < INT_MAX) j += 1;
@@ -63,7 +63,7 @@ int main() {
 				put_seed(win, snake, seed, '*' | COLOR_PAIR(3), 1);
 			} else if (flag) break;
 
-			printw("Exit at \'q\', Score: %d\r", score);
+			printw("Exit with \'q\', Score: %d\r", score);
 	    	refresh();
 
 			if (c != ERR) {
@@ -96,7 +96,7 @@ void game_over(WINDOW *win){
 	clear();
 	wclear(win);
 	printw("*** GameOver ***\n");
-	printw("Exit at \'q\'\n");
+	printw("Exit with \'q\'\n");
 	printw("Enter of space key to continue\n");
     wrefresh(win);
     refresh();
