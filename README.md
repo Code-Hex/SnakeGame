@@ -1,6 +1,6 @@
 # SnakeGame
 SnakeGame in C  
-![Imgur](http://i.imgur.com/6rAwngY.png)
+[![Gyazo](http://i.gyazo.com/d94dd3ec4898422e5c014c4ae5f0716b.gif)](http://gyazo.com/d94dd3ec4898422e5c014c4ae5f0716b)
 
 ##How to use  
 $ make  
