@@ -1,6 +1,6 @@
 # SnakeGame
-SnakeGame in C
-[Imgur](http://i.imgur.com/6rAwngY.png?1)
+SnakeGame in C  
+![Imgur](http://i.imgur.com/6rAwngY.png)
 
 ##How to use  
 $ make  
