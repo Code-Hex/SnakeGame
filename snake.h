@@ -1,4 +1,4 @@
-#define WORLD_WIDTH 50
+#define WORLD_WIDTH 52
 #define WORLD_HEIGHT 20
  
 #define LENGTH 41
